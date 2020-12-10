@@ -5,7 +5,7 @@ import useFetchImage from "../utils/hooks/useFetchImage";
 
 export default function Images() {
   const [page, setPage] = useState(1);
-  const [images, setImages] = useFetchImage(page);
+  const [images, setImages, errors] = useFetchImage(page);
 
   const [newImageUrl, setNewImageUrl] = useState("");
   const inputRef = useRef(null);
