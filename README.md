@@ -44,3 +44,8 @@ npm install postcss-cli
 "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/style.css",
 "start": "npm run build:css && react-scripts start",
 ```
+
+## Axios setup
+```
+npm install axios
+```
